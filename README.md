@@ -28,6 +28,7 @@ PYTHONPATH=$(pwd) AEGNN_DATA_DIR=$(pwd) AEGNN_LOG_DIR=$(pwd)/data/log python plo
 The program will ask you to choose between visualing the event histogram or the graph representation. The plotted samples are 100 by default, but you can change it within the code. \
 **_Note_**: make sure you have aegnn repo with all dependencies installed. Our script uses some functions written in aegnn repo.
 ## Plot events of Ncaltech101:
+tonic library at: https://github.com/neuromorphs/tonic.git \
 Thanks to **tonic** library, we created this simple script for plotting events as grid of frames and as videos/animations. \
 Like before, you can choose a class from the dataset you prefer most. 
 To run the script:
