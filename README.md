@@ -1,6 +1,7 @@
 # Training NDA + VGG11
 @authors: Filippo Casari, Alessandro De Grandi, Anthony Bugatto\
 Paper reference: https://arxiv.org/pdf/2203.06145.pdf \
+__Important__: we noticed that using a different version than 3.11 of python unexpectedly leads to a poor performance and behaviour of the model. Use python **3.11**. \
 First, you need to preprocessing the dataset with **spikingjelly**. Run this script:
 ```bash
 python preprocessing_spikingjelly.py
