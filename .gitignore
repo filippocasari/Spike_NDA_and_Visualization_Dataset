@@ -5,7 +5,6 @@ cache
 models/*
 tonic
 NDA_SNN/wandb
-spikingjelly
 .DS_Store
 NDA_SNN/functions/__pycache__
 NDA_SNN/models/__pycache__
